@@ -50,11 +50,12 @@ pw.addEventListener('input',function() {
 })
 
 
-button.addEventListener('click',()=>{
-  
+button.addEventListener('click',(e)=>{
+  e.preventDefault();
+
   if( email.value === user.id && pw.value === user.pw) {
-    // window.location.href = 'welcome.html';
-    alert('맞습니다.');
+    window.location.href = 'welcome.html';
+    
   }else {
     alert('아이디 또는 패스워드를 확인 해주세요.');
   }
