@@ -25,9 +25,22 @@
 
 <img width="1440" alt="스크린샷 2023-07-16 오후 5 02 18" src="https://github.com/MyoungHwaShin/js-homework/assets/73214037/5290f988-b86f-4595-842c-be90f2ff0e86">
 
+# issue solve
+
+## button event 적용 로직
+```
+button 태그 클릭 -> event.preventDefault()를 통해 잠시 이벤트를 막음 -> form태그 안의 내용의 유효검사 실시 -> return 혹은 form.submit()
+//결론: button type에 따른 고유의 동작을 preventDefalut()로 컷하고 지정된 action을 수행하게 한다.
+```
+## 로직에 따라 e.preventDefalut() 적용
 
 
 
+<img width="551" alt="스크린샷 2023-07-16 오후 6 15 39" src="https://github.com/MyoungHwaShin/js-homework/assets/73214037/b6a5a368-b93d-4efd-b3eb-34721807883c">
+
+## 로그인 성공시 페이지 welcome.html로 이동
+
+<img width="551" alt="스크린샷 2023-07-16 오후 6 15 53" src="https://github.com/MyoungHwaShin/js-homework/assets/73214037/bdf3bf9e-57e3-4568-9257-914384aece5f">
 
 
 
