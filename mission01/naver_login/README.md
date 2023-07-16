@@ -25,7 +25,7 @@
 
 <img width="1440" alt="스크린샷 2023-07-16 오후 5 02 18" src="https://github.com/MyoungHwaShin/js-homework/assets/73214037/5290f988-b86f-4595-842c-be90f2ff0e86">
 
-# issue solve
+# issue solving
 
 ## button event 적용 로직
 ```
