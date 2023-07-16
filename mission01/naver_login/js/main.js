@@ -36,7 +36,7 @@ email.addEventListener('input',function() {
   }
 })
 
-pw.addEventListener('input',function() {//이벤트에 인풋 쓰기
+pw.addEventListener('input',function() {
   if (pwReg(this.value)){
     this.classList.remove('is--invalid');
     pwPass = true;
@@ -53,8 +53,8 @@ pw.addEventListener('input',function() {//이벤트에 인풋 쓰기
 button.addEventListener('click',()=>{
   
   if( email.value === user.id && pw.value === user.pw) {
-    window.location.href = 'welcome.html';
-
+    // window.location.href = 'welcome.html';
+    alert('맞습니다.');
   }else {
     alert('아이디 또는 패스워드를 확인 해주세요.');
   }
