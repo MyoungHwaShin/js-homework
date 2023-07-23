@@ -14,6 +14,7 @@ function setImage(target,prop,value) {
   target.setAttribute (prop,value);
   
 }
+
 const setNameText = (target,value) => {target.textContent = value;};
 
 
@@ -27,7 +28,7 @@ function handleClick(e) {
   if(!target || !button) return;
   
   const index = attr(target, 'data-index');
-  console.log(index);
+  // console.log(index);
   if(!target) return;
  
 
